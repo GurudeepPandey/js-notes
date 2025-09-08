@@ -77,6 +77,9 @@ console.log(String(76n));   // "76"
 console.log(76n);
 console.log(String(Symbol("a")));  // "Symbol(a)"
 console.log(Symbol("a"));  // "Symbol(a)"
+console.log(String({}));    // [object Object]
+console.log(String([]));    // ""
+
 
 
 

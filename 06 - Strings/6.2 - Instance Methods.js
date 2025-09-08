@@ -5,6 +5,7 @@
 let a = "hello world"
 // console.log(a.indexOf("l")) // 2
 // console.log(a.indexOf(" ")) // 5
+// console.log(a.indexOf("")) // 0
 // console.log(a.indexOf())    // -1
 // console.log(a.indexOf("x")) // -1
 // console.log(a.indexOf("o")) // -1
@@ -37,7 +38,8 @@ let c = "Js is my first learning language"
 // console.log(c.startsWith("Js is "));    // true
 
 
-// endsWith(searchValue, length = str.length)
+// endsWith(searchValue, endposition)
+// default endposition is string length
 // console.log(c.endsWith("g"));       // false
 // console.log(c.endsWith("E"));       // false
 // console.log(c.endsWith("age"));     // true
